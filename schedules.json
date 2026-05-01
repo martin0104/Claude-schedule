@@ -1,0 +1,15 @@
+[
+  {
+    "id": "morning_greeting",
+    "type": "cron",
+    "message": "早安！今天也要加油 ☀️",
+    "hour": 8,
+    "minute": 0
+  },
+  {
+    "id": "once_example",
+    "type": "once",
+    "message": "這是一次性測試訊息！",
+    "run_at": "2026-05-02 10:00:00"
+  }
+]
