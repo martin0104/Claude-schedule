@@ -2,7 +2,7 @@ name: 台股突破選股
 
 on:
   schedule:
-    - cron: '45 3 * * *'  # UTC 11:00 = 台灣 19:00，週一到週五
+    - cron: '25 4 * * *'  # UTC 11:00 = 台灣 19:00，週一到週五
   workflow_dispatch:          # 允許手動觸發
 
 jobs:
